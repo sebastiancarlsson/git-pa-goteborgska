@@ -1,13 +1,13 @@
-# Git på svenska
+# Git på skånska
 
 ## Introduktion
 
-Det dagliga språket för de olika kommandona i `git` (eller `jävel`) är
-på svenska ett enda stort svengelskakalas. Jag finner mig själv ofta
+Det dagliga språket för de olika kommandona i `git` (eller `fubbick`) är
+på skånska ett enda stort skångelskakalas. Jag finner mig själv ofta
 sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_, vilket
 känns pinsamt.
 
-Detta dokument ämnar etablera en ren svensk jargong som kan användas
+Detta dokument ämnar etablera en rent skånsk jargong som kan användas
 på arbetsplatsen för att med fördel undvika pressade situationer med
 kollegor samt boskap.
 
@@ -19,61 +19,99 @@ oss.
 
 | Verb        | Nuvarande bruk | Förslag       |
 |-------------|----------------|---------------|
-| pull        | pulla          | rycka         |
-| push        | pusha          | knuffa        |
-| fetch       | fetcha         | hämta         |
-| branch      | brancha        | förgrena      |
-| commit      | commita        | förbinda      |
-| rebase      | rebasa         | ympa          |
-| merge       | merga          | sammanfoga    |
-| squash      | squasha        | mosa          |
-| stash       | stasha         | gömma         |
-| tag         | tagga          | märka         |
-| cherry-pick | cherry-picka   | plocka russin |
-| amend       | amenda         | rätta till    |
-| blame       | blamea         | klandra       |
+| init        | inita          | jubba         |
+| clone       | klona          | abekatta      |
+| pull        | pulla          | asa           |
+| push        | pusha          | prega         |
+| fetch       | fetcha         | pela          |
+| branch      | brancha        | spåga         |
+| add         | adda           | åsso          |
+| commit      | commita        | hutta         |
+| rebase      | rebasa         | nimma         |
+| merge       | merga          | klydda        |
+| stash       | stasha         | tocka         |
+| cherry-pick | cherry-picka   | pela päror    |
+| blame       | blamea         | gaffla        |
+| checkout    | checka ut      | henka         |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
-| git          | git            | jävel       |
-| repository   | repo           | förvaring   |
-| branch       | branch         | gren        |
-| commit       | commit         | förbindelse |
-| pull request | pull request   | ryckbegäran |
-| stash        | stash          | gömma       |
-| tag          | tagg           | märke       |
+| git          | git            | fubbick     |
+| repository   | repo           | hodda       |
+| branch       | branch         | spåga       |
+| commit       | commit         | drös        |
+| pull request | pull request   | jidder      |
+| stash        | stash          | tocka       |
+| head         | headen         | hue         |
+| remote       | remoten        | ude         |
+| origin       | origin         | himma       |
+| master       | mastern        | kagehus     |
+| dev          | deven          | glytt       |
+
 
 ## Exempel
 
-    - Kan du rycka grenen jag just ympade och knuffa till github?
+    - Kan du asa spågan jag just nimmade och prega den till github?
 
-    - Jag förgrenade alldeles nyss och förband ändringarna från min gömma där.
+    - Jag spågade alldeles nyss och hutta ändringarna från min tocka där.
 
-    - Skicka en ryckbegäran när du är färdig med sammanfogningen!
+    - Skicka en jidder när du är färdig med klyddandet!
 
-    - Låt oss plocka russin från mäster-grenen.
-    
-    - Hoppsan, jag råkade visst kraftknuffa mot mäster-grenen.. D:
+    - Låt oss pela päror från kagehus-spågan.
 
-    - Mosa dina förbindelser innan du sammanfogar.
+    - Hoppsan, jag råkade visst fedeprega mot kagehuset. D:
+
+    - Jag har en drös på glytt, kan jag klydda in det i kagehuset och sedan prega himm det?
+
+    - Nils! Du kan inte hutta och prega innan du har asat himm från kagehuset! Nu har pågarna fått en rälig klyddkonflikt!
+
+## Exempel kommandon
+
+```bash
+# git init
+fubbick jubba
+
+# git add test.py
+fubbick åsso test.py
+
+# git commit -m "Add new features"
+fubbick hutta -m "Mög"
+
+# git remote add origin
+fubbick ude åsso himma
+
+# git push origin master
+fubbick prega himma kagehus
+
+# git pull origin
+fubbick asa himma
+
+# git merge origin/dev
+fubbick klydda himma/glytt
+```
 
 ## Dagligt bruk
 
-Nedan följer en rad kommandoradskommandon för att sätta upp en svensk
-gitmiljö. Avsaknaden av svenska tecken i täcknamnen beror på en brist i git
-(överväg att förbättra mjukvaran och skicka en ryckbegäran!). Följande
+Nedan följer en rad kommandoradskommandon för att sätta upp en skånsk
+gitmiljö. Avsaknaden av skånska tecken i täcknamnen beror på en brist i git
+(överväg att förbättra mjukvaran och skicka en jidder!). Följande
 kommandon ändrar din `~/.gitconfig` och kommer att verka globalt.
 
-    git config --global alias.ryck pull
-    git config --global alias.knuffa push
-    git config --global alias.gren branch
-    git config --global alias.forgrena branch
-    git config --global alias.forbinda commit
-    git config --global alias.ympa rebase
-    git config --global alias.sammanfoga merge
-    git config --global alias.gom stash
-    git config --global alias.klandra blame
-    git config --global alias.marke tag
-    git config --global alias.mark tag
+```bash
+git config --global alias.jubba init
+git config --global alias.abekatta clone
+git config --global alias.asa pull
+git config --global alias.prega push
+git config --global alias.pela fetch
+git config --global alias.spaga branch
+git config --global alias.asso add
+git config --global alias.hutta commit
+git config --global alias.nimma rebase
+git config --global alias.klydda merge
+git config --global alias.tocka stash
+git config --global alias.pelaparor cherry-pick
+git config --global alias.gaffla blame
+git config --global alias.henka checkout
 
-    alias jävel=git
+alias fubbick=git
+```
