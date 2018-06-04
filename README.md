@@ -102,6 +102,7 @@ git config --global alias.jubba init
 git config --global alias.abekatta clone
 git config --global alias.asa pull
 git config --global alias.prega push
+git config --global alias.fedeprega "push --force"
 git config --global alias.pela fetch
 git config --global alias.spaga branch
 git config --global alias.asso add
