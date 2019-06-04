@@ -4,12 +4,10 @@
 
 Det dagliga språket för de olika kommandona i `git` (eller `fubbick`) är
 på skånska ett enda stort skångelskakalas. Jag finner mig själv ofta
-sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_, vilket
-känns pinsamt.
+sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_.
 
 Detta dokument ämnar etablera en rent skånsk jargong som kan användas
-på arbetsplatsen för att med fördel undvika pressade situationer med
-kollegor samt boskap.
+på arbetsplatsen för att med fördel undvika pressade situationer.
 
 ## Förslag
 
