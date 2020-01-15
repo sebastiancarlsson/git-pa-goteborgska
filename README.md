@@ -31,6 +31,7 @@ oss.
 | cherry-pick | cherry-picka   | pela päror    |
 | blame       | blamea         | gaffla        |
 | checkout    | checka ut      | henka         |
+| log	      | logga          | härförleden   |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
@@ -62,6 +63,8 @@ oss.
     - Jag har en drös på glytt, kan jag klydda in det i kagehuset och sedan prega himm det?
 
     - Nils! Du kan inte hutta och prega innan du har asat himm från kagehuset! Nu har pågarna fått en rälig klyddkonflikt!
+
+    - Det för mycket klydd härförleden Edvard, du vet att man bara ska nimma där himma ditt ålahue!
 
 ## Exempel kommandon
 
@@ -111,6 +114,8 @@ git config --global alias.tocka stash
 git config --global alias.pelaparor cherry-pick
 git config --global alias.gaffla blame
 git config --global alias.henka checkout
+git config --global alias.härförleden log
 
 alias fubbick=git
 ```
+
