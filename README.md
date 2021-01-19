@@ -1,12 +1,14 @@
-# Git på skånska
+# Git på göteborgska
 
 ## Introduktion
 
-Det dagliga språket för de olika kommandona i `git` (eller `fubbick`) är
+Gren från https://github.com/ErikGartner/git-pa-skanska
+
+Det dagliga språket för de olika kommandona i `git` (eller `gött`) är
 på skånska ett enda stort skångelskakalas. Jag finner mig själv ofta
 sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_.
 
-Detta dokument ämnar etablera en rent skånsk jargong som kan användas
+Detta dokument ämnar etablera en rent ~~skånsk~~ göteborgsk jargong som kan användas
 på arbetsplatsen för att med fördel undvika pressade situationer.
 
 ## Förslag
@@ -17,35 +19,38 @@ oss.
 
 | Verb        | Nuvarande bruk | Förslag       |
 |-------------|----------------|---------------|
-| init        | inita          | jubba         |
-| clone       | klona          | abekatta      |
-| pull        | pulla          | asa           |
-| push        | pusha          | prega         |
-| fetch       | fetcha         | pela          |
-| branch      | brancha        | spåga         |
-| add         | adda           | åsso          |
-| commit      | commita        | hutta         |
-| rebase      | rebasa         | nimma         |
-| merge       | merga          | klydda        |
-| stash       | stasha         | tocka         |
-| cherry-pick | cherry-picka   | pela päror    |
-| blame       | blamea         | gaffla        |
-| checkout    | checka ut      | henka         |
-| log	      | logga          | härförleden   |
+| init        | inita          | *jubba*       |
+| clone       | klona          | möla [i sig]  |
+| pull        | pulla          | dra           |
+| push        | pusha          | knö           |
+| fetch       | fetcha         | *pela*        |
+| branch      | brancha        | *spåga*       |
+| add         | adda           | *åsso*        |
+| commit      | commita        | *hutta*       |
+| rebase      | rebasa         | feppla        |
+| merge       | merga          | mosa          |
+| stash       | stasha         | svale         |
+| cherry-pick | cherry-picka   | *pela päror*  |
+| blame       | blamea         | bonka         |
+| checkout    | checka ut      | käcka [sig]   |
+| log	      | logga          | *härförleden* |
+| force       | forca          | döna          |
 
-| Substantiv   | Nuvarande bruk | Förslag     |
-|--------------|----------------|-------------|
-| git          | git            | fubbick     |
-| repository   | repo           | hodda       |
-| branch       | branch         | spåga       |
-| commit       | commit         | drös        |
-| pull request | pull request   | jidder      |
-| stash        | stash          | tocka       |
-| head         | headen         | hue         |
-| remote       | remoten        | ude         |
-| origin       | origin         | himma       |
-| master       | mastern        | kagehus     |
-| dev          | deven          | glytt       |
+| Substantiv   | Nuvarande bruk | Förslag      |
+|--------------|----------------|--------------|
+| git          | git            | gött/go      |
+| repository   | repo           | tappen       |
+| branch       | branch         | grenuttag    |
+| merge        | merge          | mos          |
+| commit       | commit         | abrovinsch   |
+| push         | push           | tryck        |
+| pull request | pull request   | halledönare  |
+| stash        | stash          | svalen       |
+| head         | headen         | hövvet       |
+| remote       | remoten        | kicket       |
+| origin       | origin         | bamba        |
+| master       | mastern        | frölundaborg |
+| dev          | deven          | fabriken     |
 
 
 ## Exempel
