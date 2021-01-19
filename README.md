@@ -22,7 +22,7 @@ oss.
 | init        | inita          | *jubba*       |
 | clone       | klona          | möla [i sig]  |
 | pull        | pulla          | dra           |
-| push        | pusha          | knö           |
+| push        | pusha          | pötta         |
 | fetch       | fetcha         | *pela*        |
 | branch      | brancha        | *spåga*       |
 | add         | adda           | *åsso*        |
@@ -39,7 +39,7 @@ oss.
 | Substantiv   | Nuvarande bruk | Förslag      |
 |--------------|----------------|--------------|
 | git          | git            | gött/go      |
-| repository   | repo           | tappen       |
+| repository   | repo           | tapp         |
 | branch       | branch         | grenuttag    |
 | merge        | merge          | mos          |
 | commit       | commit         | abrovinsch   |
@@ -47,10 +47,10 @@ oss.
 | pull request | pull request   | halledönare  |
 | stash        | stash          | svalen       |
 | head         | headen         | hövvet       |
-| remote       | remoten        | kicket       |
-| origin       | origin         | bamba        |
-| master       | mastern        | frölundaborg |
-| dev          | deven          | fabriken     |
+| remote       | remoten        | saltholmen   |
+| origin       | origin         | frölundaborg |
+| master       | mastern        | direktörn    |
+| dev          | deven          | verkstan     |
 
 
 ## Exempel
