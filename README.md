@@ -19,21 +19,21 @@ oss.
 
 | Verb        | Nuvarande bruk | Förslag       |
 |-------------|----------------|---------------|
-| init        | inita          | *jubba*       |
+| init        | inita          |               |
 | clone       | klona          | möla [i sig]  |
 | pull        | pulla          | dra           |
 | push        | pusha          | pötta         |
-| fetch       | fetcha         | *pela*        |
-| branch      | brancha        | *spåga*       |
-| add         | adda           | *åsso*        |
-| commit      | commita        | *hutta*       |
+| fetch       | fetcha         |               |
+| branch      | brancha        |               |
+| add         | adda           |               |
+| commit      | commita        |               |
 | rebase      | rebasa         | feppla        |
 | merge       | merga          | mosa          |
 | stash       | stasha         | svale         |
-| cherry-pick | cherry-picka   | *pela päror*  |
+| cherry-pick | cherry-picka   |               |
 | blame       | blamea         | bonka         |
 | checkout    | checka ut      | käcka [sig]   |
-| log	      | logga          | *härförleden* |
+| log	      | logga          |               |
 | force       | forca          | döna          |
 
 | Substantiv   | Nuvarande bruk | Förslag      |
